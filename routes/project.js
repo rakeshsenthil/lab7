@@ -19,5 +19,5 @@ function getProjectData(projectID) {
 		projectID = parseInt(projectID);
 	}
   	var project = projects[projectID-1]; // of by one, our first project has index 0
-  	return project;	
+  	return project;
 }
